@@ -1,9 +1,0 @@
-nome: Ainda não escolhi
-
-on:
-    push:
-        branches:
-        - main
-
-jobs:
-    build:
