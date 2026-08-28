@@ -4,7 +4,7 @@ app = FastAPI(title="CloudOps API", version="1.0.0")
 def home():
     return {
     "mensagem": "Hello World - CloudOps Pipeline!",
-    "status": "online",
+    "status": "offline",
     "versao": "1.0.0"
 }
 @app.get("/health")
